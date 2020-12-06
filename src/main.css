@@ -191,8 +191,30 @@ input{
 #footer-container{
     display: flex;
     flex-direction: column;
-    background-color: #000;
+    background-color: rgb(32, 32, 32);
     width: 100%;
     height: 75px;
     align-items: center;
+    font-size: 0.8rem;
+}
+.telephone-text{
+    color: #fff;
+}
+#telephone{
+    color: #fff;
+    font-size: 0.7rem;
+}
+#telephone:hover{
+    cursor: pointer;
+transition: all .3s ease-out;
+color: rgba(255, 255, 255, 0.63);
+}
+.social-media{
+    color: #fff;
+    text-decoration: none;
+}
+.social-media:hover{
+cursor: pointer;
+transition: all .3s ease-out;
+color: rgba(255, 255, 255, 0.63);
 }
