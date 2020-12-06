@@ -10,6 +10,9 @@ li{
 p{
     font-size: 0.8rem;
 }
+h6{
+    color: white;
+}
 /* body css */
 body{
     background-color: rgba(196, 196, 196, 0.5);
@@ -161,4 +164,35 @@ color: #fff;
 .member-card{
     width: 25%;
     height: auto;
+}
+
+.contact-container{
+    display: flex;
+     flex-direction: column;
+     width:100%;
+     height: 300px;
+     padding-top: 1rem;
+     background-color: #fff;
+     text-align: center;
+     align-items: center;
+     
+}
+.contact-card{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+   align-items: center;
+   padding-top: 1rem;
+}
+input{
+    margin:2.5px;
+}
+
+#footer-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    width: 100%;
+    height: 75px;
+    align-items: center;
 }
