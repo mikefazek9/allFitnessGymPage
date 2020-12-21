@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>All Fitness</title>
+    <!-- icon kit -->
+    <script src="https://kit.fontawesome.com/83c4326dda.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="src/main.css">
 </head>
 <body>
@@ -11,18 +13,25 @@
     <div class="nav_container">
         <h1 class="logo-name">All Fitness</h1>
         <nav class="navbar">
+
             <ul class="link_menu">
                 <a href="#" class="link"><li>Home</li></a>
                     <a href="#" class="link"><li>About</li></a>
-                        <a href="#" class="link"><li>Membership</li></a>
+                        <a href="#" class="link" ><li id="btn-scroll">Membership</li></a>
                 <a href="#" class="link"><li>Contact Us</li></a>
             </ul>
         </nav>
+        <div class="mobile-ham">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
     </div>
     <!-- /nav end -->
     <!-- landing / video -->
     <div class="landing-container-center">
         <h2 class="welc-center-text">Welcome to All Fitness!</h2>
+        <button class="scroll-btn" id="join-btn">Learn more!</button>
          <div class="video-container">
              <video autoplay loop muted>
               <source src="./src/img/gymvid.mp4" type="video/mp4">
@@ -67,6 +76,9 @@
              <button class="join-btn">Join Today!</button>
         </div>
     </div>
+</div>
+<div class="arrow-up-container">
+<i class="fas fa-arrow-circle-up"></i>
 </div>
 </div>
 <!-- about end -->
@@ -137,4 +149,5 @@
 </div>
 </footer>
 </body>
+<script src="src/app.js"></script>
 </html>
